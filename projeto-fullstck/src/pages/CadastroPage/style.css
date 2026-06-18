@@ -1,0 +1,72 @@
+/* Container Central da Página */
+.cadastro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* Alinha proporcionalmente na área útil da tela */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Título da Página */
+.cadastro-page h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Card do Formulário */
+.cadastro-page form {
+  width: 100%;
+  max-width: 420px; /* Largura ideal e elegante para formulários */
+  background: #1e1e24; /* Mesmo fundo escuro moderno utilizado na Home */
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Alinhamento de cada bloco (Label + Input) */
+.grupo-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Estilização dos Labels */
+.grupo-form label {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  margin-bottom: 8px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Inputs Modernos Estilo Dark Mode */
+.grupo-form input {
+  background-color: #121214;
+  border: 2px solid #29292e;
+  border-radius: 6px;
+  padding: 12px 16px;
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Efeito Highlight ao focar/clicar no Input */
+.grupo-form input:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 8px rgba(100, 108, 255, 0.25);
+}
+
+/* Botão de Submissão */
+.cadastro-page button[type="submit"] {
+  width: 100%;
+  background-color: #646cff;
+  color: #ffffff;
+  padding:

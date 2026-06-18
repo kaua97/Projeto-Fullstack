@@ -1,0 +1,101 @@
+.header nav {
+  display: flex;
+  gap: 15px; /* Cria um espaço bem legal entre os links */
+  justify-content: center; /* Centraliza o menu */
+  margin-top: 10px;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #535bf2; /* Cor azul padrão de link, ou a que você preferir */
+}
+/* Container da Página */
+.cadastro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 65vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Título */
+.cadastro-page h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* Formulário Card */
+.cadastro-page form {
+  width: 100%;
+  max-width: 450px; /* Mantém um tamanho confortável */
+  background: #1e1e24; /* Mesmo fundo escuro elegante da Home */
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Grupos de inputs (Label + Input) */
+.grupo-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.grupo-form label {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+/* Estilização profissional para os Inputs */
+.grupo-form input {
+  background-color: #121214;
+  border: 2px solid #29292e;
+  border-radius: 6px;
+  padding: 12px 16px;
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Efeito de foco azul/roxo ao clicar no input */
+.grupo-form input:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 8px rgba(100, 108, 255, 0.2);
+}
+
+/* Botão de Enviar */
+.cadastro-page button[type="submit"] {
+  width: 100%;
+  background-color: #646cff;
+  color: #ffffff;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.cadastro-page button[type="submit"]:hover:not(:disabled) {
+  background-color: #535bf2;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(100, 108, 255, 0.3);
+}
+
+/* Botão desativado durante o envio */
+.cadastro-page button[type="submit"]:disabled {
+  background-color: #444449;
+  color: #888888;
+  cursor: not-allowed;
+}
