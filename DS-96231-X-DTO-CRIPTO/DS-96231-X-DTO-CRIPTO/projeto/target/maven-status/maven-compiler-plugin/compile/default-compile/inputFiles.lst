@@ -1,0 +1,10 @@
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/ProjetoApplication.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/config/SecurityConfig.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/controller/UsuarioController.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/controller/Welcome.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/dto/UsuarioRequestDTO.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/dto/UsuarioResponseDTO.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/exception/GlobalException.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/model/UsuarioModel.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/repository/UsuarioRepository.java
+/workspaces/DS-96231/projeto/src/main/java/com/example/projeto/service/UsuarioService.java
